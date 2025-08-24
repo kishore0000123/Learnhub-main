@@ -12,7 +12,7 @@ export const UserContext = createContext();
 
 function App() {
   const date = new Date().getFullYear();
-  const [userData, setUserData] = useState();
+  const [userData, setUserData] = useState();n
   const [userLoggedIn, setUserLoggedIn] = useState(false);
 
   const getData = async () => {
